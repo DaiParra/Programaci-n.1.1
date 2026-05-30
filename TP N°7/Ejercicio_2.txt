@@ -1,0 +1,8 @@
+Vemos en el codigo una variable que contiene una cadena de texto separadas por punto y coma. Usamos split para separar a partir del punto y coma, 
+o sea, que cada vez que encuentre un punto y coma en el texto lo va a separar por partes. En la tercera linea lo que hace es aclarar que va a influir 
+sobre el primer dato, con el split elimina los caracteres invisibles que tenga " mara " tanto al pirncipio como al final y con capitalize hace que 
+la primera letra sea mayuscula y el resto minuscula. Lo primo hace en el dato 1. En "nota_texto" lo que hace es eliminar caracteres invisibles que 
+tenga el numero del 2do dato. 
+Por ultimo hace una condicion, cuando el usuario coloque el dato 2 va a poder escribir un nro o un texto numerico de la nota y el programa se ejecutara
+sin inconvenientes convirtiendola en un nro y escribiendo al final el nombre del alumno, la materia que cursa y la nota que obtuvo. Si llega el usuario 
+a escribir algo que no sea un nro o un texto numerico devuelve "la nota no es valida."

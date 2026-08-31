@@ -1,0 +1,18 @@
+---> REPASO EXPRESS 
+1. Para pedir datos hasta que diga "salir" usamos un while 
+2. Para recorrer una lista con datos fijos usamos un for 
+3. Para que una funcion de como resultado un dato manipulable usamos un return 
+4. Una funcion recibe datos que necesita si le ponemos que pida datos a traves de parametros y/o argumentos 
+5. Para guardar datos que no se repiten uso un set() [conjunto]
+6. Para guardar datos que no se pueden manipular utilizo las tuplas 
+
+---> ANALIZAR EL CODIGO
+1. 
+
+---> GESTION DE AMBIENTES E INSTALACION DE PAQUETES 
+| Ambiente Virtual: 
+     Carpeta del proyecto que tenemos q usa una version elegida de Python donde se guardan los paquetes que se van a utilizar. 
+     Asi evitamos tener que modificar el Python global y mezclar proyectos. 
+| Instalacion de Paquetes: 
+    Dentro del ambiente virtual podemos tener paquetes. 
+

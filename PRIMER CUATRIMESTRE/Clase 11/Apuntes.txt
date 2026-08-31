@@ -1,0 +1,56 @@
+--- FUNCION SPLIT 
+Sirve para dividir un texto en partes y guardar esas partes separadas, devuelve una lista.
+
+--- FUNCION STRIP 
+Permite eliminar los caracteres vacios e invisibles de una cadena de texto al principio y al final de misma. 
+STRING.strip(characteres=None) Characters indica que caracteres se deben eliminar de los extremos, normalmente se deja vacio. 
+Se puede poner mas de un caracter
+
+--- FUNCION CAPITALIZE 
+Hace que solo el primer caracter sea mayuscula y el resto minuscula. 
+STRING.capitalize()
+
+Asociadas a capitalize:
+
+  -lower: pasa todo el texto a minuscula 
+  -upper: pasa todo el texto a mayuscula 
+
+--- TITLE 
+title():  hace mayuscula la primera letra, encunetra un espacio, hace mayuscula la primera letra de la otra palabra y asi 
+
+--- FUNCION JOIN 
+Nos permite unir listas de str mediante un caracter y convertirlo en un str. 
+
+--- SLICING 
+Slicing significa cortar una parte de una secuencia (string, lista, etc.) usando posiciones.
+
+Ejemplo: 
+letras = ["a","b","c","d","e"]
+
+Caso de uso [1,2,3]   |Codigo de ejemplo  | Resultado 
+Extraer un rango      |letras[1:4]        |["b","c","d"]
+Desde el inicio       |letras[:3]         |["a","b","c"]
+Hasta el final        |letras[2:]         |["c","d","e"]
+Copiar lista completa |letras[:]          |["a","b","c","d","e"]
+Con saltos (paso)     |letras[::2]        |["a","c","e"]
+Lista invertida       |letras[:: 1]       |["e","d","c","b","a"]
+Indices negativos     |letras[-3:-1]      |["c","d"]
+
+--- VALIDACION DE DATOS 
+Validamos para evitar que el usuario rompa accidental o a proposito nuestro programa.
+
+1. Validando numeros en la entrada: isnumeric 
+No permite determinar si un texto es o no un nro. El usuario puede escribir un texto pero lo tomamos como nro. 
+
+2. Validando tamaño de entrada: len("1996") == 4
+Con un len y comparador verificamos que tenga los caracteres que nosotros delimitamos. 
+
+3. Validando ingreso de palabras: isalpha()
+Verifica que el texto sea solo palabras. 
+
+isalnum: Verifica que sea alfanumerico (caracteres de a-z y numeros, sin cosas raras)
+
+4. Validando caracteres separados: count()
+Cuando esperamos un cierto formato 
+
+5. Validaciones de rango: 

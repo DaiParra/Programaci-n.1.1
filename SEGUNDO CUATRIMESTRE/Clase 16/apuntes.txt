@@ -1,0 +1,54 @@
+---- REPASO DE LA CLASE ANTERIOR 
+La clase anterior vimos como reciboir argumentos en linea de coamndos
+sys.argv es un tipo de dato lista y accedemos por indice 
+Podiamos poner argumentos con "" dentro de otros argumentos 
+Verificamos si el archivo existe antes de abrirlo 
+Si ingresan datos desde afuera hay que validarlos porq asumimos que el usuario cometio erorres y protegemos al usuario y al programa
+
+---- ARCHIVOS .JSON
+Es un formato de texti usado para guardar y compartir datos estructurados dado a que es un estandar. 
+Que sea estandar signidfica que esta definido como se interpreta el lenguaje en cualquier programa (Pyhton, C++, JAVA). Nos permite interactuar 
+en un monton de lenguajes sin tener que cambiarlo en base al programa. Yo lo escribo pero tengo lineamientos de como lo escribo.
+JSON es parecido a los diccionarios. 
+Cuando usamos una app web viaja por JSON
+
+clave-valor y soporta diferentes estructuras de datos 
+
+Usa {} para obejtos
+[] para arrays (listas)
+las claves van entre comillas dobles 
+aparecen true, false y null 
+las comas separan elementos, pero no puede sobrar la ultima 
+
+python: dict, list, none, True/False 
+JSON: object, array, null, true/false 
+
+(JSON es una lista basiucamenre)
+
+los set(conjuntos) no se puede serializar directamente y produce TypeError 
+
+JSON VALIDO: 
+{
+    "nombre": "Lista", 
+    "activo": true -----> CUIDADO CON LAS MAYUCULAS QUE EN JSON NO VAN 
+
+}
+
+ESCRIBIR JSON DESDE PYTHON
+
+import json 
+producto = {
+    "nombre": "Coca",
+    "precio": 950,
+    "stock": 9
+}
+
+whit open("producto.json", "w") as archivo: 
+     json.sump(producto, archivo)
+
+el ctrl+shift+p --->format document
+
+Con ident el achivo queda mucho mas legible. 
+
+Y asi como podemos escribir podemis volver a leer el archivo.
+import json

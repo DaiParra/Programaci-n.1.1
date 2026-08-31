@@ -1,0 +1,62 @@
+ARCHIVOS 
+Los archivos permiten guardar info para usarla despues. 
+(Primer ejemplo de archivos en la carpeta "Progra 1 - Archivos")--> Los demas ejemplos de ejecucion de archivos tambien estaran en esa carpeta. 
+
+---Mecanismo de lectura de archivos
+Podes: 
+       1.Volcar el archivo completo
+       2.Volcar linea a linea 
+       3.Volcar todas las lineas a una lista
+
+1.Leyendo un archivo completo
+archivo = open("datos.txt","r") #Lo abre con open y r es read, informamos que lo vamos a leer. 
+contenido = archivo.read() #Lee el archivo completo y lo vuelca en un str
+print(copntenido, end="") #Utilizamos end="" para evitar el salto de linea que crea print
+archivo.close()
+
+2. Leyendo linea a linea 
+archivo = open("datos.txt","r")
+linea = archivo.readline() #Lee un archivo hasta encontrar una linea completa delimitada por \n
+print(linea.strip()) 
+archivo.close()
+
+3. Volcando el archivo en una lista 
+archivo = open("datos.txt","r")
+lineas = archivo.readlines() #CUIDADO SI PONES READLINE PONE LETRA A LETRA EN UNA LISTA, SI ES LINES SI LO PONE BIEN
+print(lineas)
+for linea in lineas: 
+   print(linea.strip())
+archivo.close()
+
+---Puntero de archivo 
+Cuando leemos el contenido no vuelve a estar disponible para leer desde el principio, sino desde el final o donde nos hayamos quedado. 
+Para volver a leerlo desde el principio hacemos que el puntero vuelva al principio manualmente con seek(0)
+
+---Operando los datos de un archivo 
+Podemos pasar de un archivo de texto plano a una estructura de datos dentro de nuestro programa. 
+(Hay dos ejemplos en la otra carpeta. Uno con numeros y nombres)
+
+---Mecanismo de escritura de archivos 
+Python ofrece dos mecanismos: 
+   1. write: en formato texto 
+   2. writelines: en formato lineas
+
+Para escribir en vez de la "r" hacemos "w"
+
+OJO: EL USO DE WRITE VA A PISAR EL CONTENIDO DE NUESTRO ARCHIVO CADA QUE SE ABRA
+
+--- \n 
+Representa el salto de linea 
+
+---Tabla de modos de manejo de archivo 
+Modo |   Nombres             |¿Permite leer?  |¿Permite escribir? |¿Que pasa si el archivo no existe? |¿Que pasa si el archivo ya existe? 
+r    |Solo lectura           |Si              |No                 |Error                              |Se abre sin modificarlo
+r+   |Lectura y escritura    |Si              |Si                 |Error                              |Se abre sin borrar su contenido
+w    |Solo escritura         |No              |Si                 |Se crea                            |Se borra su contenido anterior
+w+   |Escritura y lectura    |Si              |Si                 |Se crea                            |Se borra su contenido anterior
+a    |Solo añadir            |No              |Si                 |Se crea                            |Agrega contenido al final
+a+   |Añadir y leer          |Si              |Si                 |Se crea                            |Agrega contenido al final
+
+---Estructura de archivos
+Mira el pdf de la clase 10 al final. Es para tener todo mas ordenado y tambien cuando abras un archivo le vas a decir a 
+donde ir a buscar ese archivo. 

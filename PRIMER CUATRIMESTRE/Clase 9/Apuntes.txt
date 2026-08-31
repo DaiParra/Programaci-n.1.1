@@ -1,0 +1,42 @@
+TUPLAS 
+Coleccion ordenada de valores inmutables. Se parece a la lista, la diferencia es que la tupla no se puede modificar. 
+Para definirla: () y el contenido seprado por ""
+
+CONJUNTOS/SET
+Coleccion de elementos unicos, sin repetidos y sin un orden importante. 
+Se definen: {} y las palabras en "" separadas por ´,´
+Nos permite almacenar valores sin repetirlos. 
+Puede tener str, float, tupla, int PERO NO CONTENIDO TIPO MUTABLE (listas, otros conjuntos o diccionarios)
+
+DICCIONARIOS 
+Estructura que permite almacenar su contenido en forma: clave-valor 
+Los dicc. se pueden recorrer por clave, clave y valor o por valor. 
+
+Ejemplo: 
+1. Crear un dicc
+persona = {
+    "nombre":"Martin",
+    "edad":20
+}
+
+2. Acceder a un valor usando su clave 
+print(persona["nombre"]) 
+
+3. Modificar un valor existente 
+persona ["edad"] = 21
+
+4. Agregar una nueva clave 
+persona["Ciudad"] = "Bariloche"
+
+5. Preguntar si existe es clave 
+print("ciudad" in persona)
+
+6. Obteniendo las keys (claves)
+keys = persona.keys()
+
+7. Obteniendo los valus 
+values = persona.values()
+
+ESTRUCTURAS COMBINADAS
+Listas de diccionarios 
+Dicc en dicc 

@@ -1,0 +1,4 @@
+--->Argumentos en linea de comandos: 
+     Nos permiten enviar informacion a un programa en el mismo momento que lo ejecutamos. Entonces le indicamos al programa como comportarse sin 
+     necesidad de modificar el codigo ni ingresar informacion durante la ejecucion. 
+

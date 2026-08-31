@@ -1,0 +1,1 @@
+#enumerate() sirve para recorrer una lista y obtener el indice y el valor

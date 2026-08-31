@@ -1,0 +1,11 @@
+TP 8
+Ejercicio 2 usamos for, hay que iterarla, una variable de diccionario para usarla, puedo usar un solo for o muchos for para las distintas cosas. 
+Puedo poner una lista dentro del append([])
+
+Lo de esta clase no entra en el parcial. 
+
+COMPRENSION DE LISTAS, CONJUNTOS Y DICCIONARIOS. 
+La comprension de listas es una forma compacta de construir una lista a partit de un iterable. 
+La comprension del dicc es igual que la lista pero nos devuelve un dicc. 
+Y por conjuntos es lo mismo. 
+

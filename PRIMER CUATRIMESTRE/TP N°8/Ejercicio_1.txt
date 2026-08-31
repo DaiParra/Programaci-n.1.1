@@ -1,0 +1,20 @@
+Explicá con tus palabras la diferencia entre:
+
+Lista
+Tupla
+Conjunto
+Diccionario
+Para cada estructura, indicá un ejemplo de situación donde podría resultar útil.
+
+Respuesta: 
+Una lista es un tipo de variable que almacenan diferentes valores en una sola variable, la tupla es parecida pero los valores en ella son inmutables,
+los conjuntos son listas de elementos unicos, sin repeticiones, y el diccionario almacena sus datos en forma clave-valor. 
+
+Ejemplo lista: Lo utilizaria para una lista de invitados. 
+
+Ejemplo de Tupla: Lo utilizaria para almacenar DNI´S, que esos datos no deben cambiar.
+
+Ejemplo de conjunto: Lo utilizaria para una lista de compras, donde no necesito dos veces el mismo producto. 
+
+Ejeemplo de diccionario: Lo utilizaria en una lista de alumnos, la clave es su nombre y el valor es la materia en la que se inscribio. 
+

@@ -1,0 +1,10 @@
+--- EXCEPCION 
+Los programas hablan con el mudno real, las excepciones sirven para responder sin que el programa termine de golpe
+Es una excepcion de algo que salio mal mientras el prohgrama se estaba ejecutando. 
+Puede ser por error de estructura del codigo o porq el usuario escribio algo mal. 
+
+Cuando python enucnetra una excepcion corta la ejecucion normal del programa. muestra el traceback, muestra dond eesta el error., termina el 
+prograna sin q nadie maneje. 
+
+python - Forma habitual
+try/except 

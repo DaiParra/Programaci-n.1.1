@@ -1,0 +1,11 @@
+1. Es importante porque el usuario puede poner cualquier cosa cuando le pedimos informacion y si pone algo erroneo (a proposito o por accidente)
+puede romper todo nuestro programa. 
+
+2. Strip sirve para eliminar caracteres al principio y al final de una cadena de texto. 
+Se diferencia del split en que split divide el texto en partes y las guarda separadas. 
+
+3. Count puede servir para contar cuantas comas o punto y coma hay en esa linea de datos. 
+
+4. Un problema que puede traer es si lo buscamos en una lista/diccionario/tupla no va a aparecer por mas de que lo llamemos
+porque la python lee que hay un caracter invisible antes del nombre del dato (\n) y como nosotros no lo ponemos es como si
+no lo estuvieramos llamando correctamente. 

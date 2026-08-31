@@ -1,0 +1,3 @@
+# == compara valores
+# = asigna valor
+

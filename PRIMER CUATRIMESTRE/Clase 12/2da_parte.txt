@@ -1,0 +1,10 @@
+1. 
+Usamos dos count para la puerta abierta y cerrada para ver cuantas veces aparece cerrada o abierta. 
+
+2. 
+Pondia dos listas, una de los voltajes recibidos, otra vacia de los volt fuera de rango, despues con un for recorro la lista de volt recibidos y en base 
+del rango en que esten los dejo en la misma lista o los coloco en la lista vacia, despues con un print veo que valores quedaron en la lista de rangos afuera 
+
+
+3. 
+pondria un capitalize y un strip, despues restringir la cantidad que se acepta, con un for y un input y si no es valida la respuesta preguntar de nuevo. 
